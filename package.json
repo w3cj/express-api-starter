@@ -1,0 +1,29 @@
+{
+  "name": "express-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "lint": "eslint --fix src",
+    "audit": "snyk test",
+    "test": "mocha -w"
+  },
+  "keywords": [],
+  "author": "CJ R. <cj@null.computer> (https://w3cj.now.sh)",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "helmet": "^3.13.0",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.2.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.3",
+    "snyk": "^1.89.0",
+    "supertest": "^3.1.0"
+  }
+}
