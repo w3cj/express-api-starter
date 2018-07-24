@@ -1,7 +1,7 @@
 {
-  "name": "express-api",
+  "name": "express-api-starter",
   "version": "1.0.0",
-  "description": "",
+  "description": " A basic starter for an express.js API",
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
@@ -12,6 +12,10 @@
   },
   "keywords": [],
   "author": "CJ R. <cj@null.computer> (https://w3cj.now.sh)",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/w3cj/express-api-starter.git"
+  },
   "license": "MIT",
   "dependencies": {
     "dotenv": "^6.0.0",
