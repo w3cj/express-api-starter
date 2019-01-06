@@ -1,6 +1,6 @@
 {
   "name": "express-api-starter",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": " A basic starter for an express.js API",
   "main": "index.js",
   "scripts": {
@@ -13,21 +13,21 @@
   "keywords": [],
   "author": "CJ R. <cj@null.computer> (https://w3cj.now.sh)",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/w3cj/express-api-starter.git"
+    "type": "git",
+    "url": "https://github.com/w3cj/express-api-starter.git"
   },
   "license": "MIT",
   "dependencies": {
-    "dotenv": "^6.0.0",
-    "express": "^4.16.3",
-    "helmet": "^3.13.0",
-    "morgan": "^1.9.0"
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "helmet": "^3.15.0",
+    "morgan": "^1.9.1"
   },
   "devDependencies": {
-    "eslint": "^5.2.0",
+    "eslint": "^5.12.0",
     "mocha": "^5.2.0",
-    "nodemon": "^1.18.3",
-    "snyk": "^1.89.0",
-    "supertest": "^3.1.0"
+    "nodemon": "^1.18.9",
+    "snyk": "^1.120.1",
+    "supertest": "^3.3.0"
   }
 }
