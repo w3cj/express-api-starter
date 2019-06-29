@@ -29,7 +29,7 @@
     "eslint-plugin-import": "^2.14.0",
     "mocha": "^5.2.0",
     "nodemon": "^1.18.9",
-    "snyk": "^1.120.1",
+    "snyk": "^1.185.5",
     "supertest": "^3.3.0"
   }
 }
