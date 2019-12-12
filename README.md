@@ -19,8 +19,6 @@ Development utilities:
   * ☕️ Simple, flexible, fun JavaScript test framework for Node.js & The Browser ☕️
 * [supertest](https://www.npmjs.com/package/supertest)
   * HTTP assertions made easy via superagent.
-* [snyk](https://www.npmjs.com/package/snyk)
-  * Snyk helps you find, fix and monitor known vulnerabilities in Node.js npm dependencies
 
 ## Setup
 
@@ -44,10 +42,4 @@ npm run test
 
 ```
 npm run dev
-```
-
-## Package Audit with snyk
-
-```
-npm run audit
 ```
