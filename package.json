@@ -7,7 +7,7 @@
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
     "lint": "eslint --fix src",
-    "test": "mocha -w"
+    "test": "mocha --exit"
   },
   "keywords": [],
   "author": "CJ R. <cj@null.computer> (https://w3cj.now.sh)",
@@ -18,17 +18,17 @@
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
-    "dotenv": "^6.2.0",
-    "express": "^4.16.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
     "helmet": "^3.21.2",
     "morgan": "^1.9.1"
   },
   "devDependencies": {
-    "eslint": "^5.12.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "mocha": "^5.2.0",
-    "nodemon": "^1.18.9",
-    "supertest": "^3.3.0"
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "mocha": "^7.0.1",
+    "nodemon": "^2.0.2",
+    "supertest": "^4.0.2"
   }
 }

@@ -1,4 +1,7 @@
 module.exports = {
+    env: {
+        jest: true,
+    },
     extends: 'airbnb-base',
     rules: {
         'comma-dangle': 0,
