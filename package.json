@@ -20,14 +20,14 @@
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "helmet": "^3.21.2",
+    "helmet": "^3.21.3",
     "morgan": "^1.9.1"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
-    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.1",
-    "mocha": "^7.0.1",
+    "mocha": "^7.1.0",
     "nodemon": "^2.0.2",
     "supertest": "^4.0.2"
   }
