@@ -1,4 +1,15 @@
+
 # Express API Starter
+
+## Endpoints
+
+```
+/api/v1/phrase: **Whole phrase to arabic endpoint**
+```
+
+```
+/api/v1/word: **one word to arabic endpoint**
+```
 
 Includes API Server utilities:
 
