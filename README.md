@@ -3,12 +3,14 @@
 
 ## Endpoints
 
+**Whole phrase to arabic endpoint**
 ```
-/api/v1/phrase: **Whole phrase to arabic endpoint**
+/api/v1/phrase
 ```
 
+**one word to arabic endpoint**
 ```
-/api/v1/word: **one word to arabic endpoint**
+/api/v1/word
 ```
 
 Includes API Server utilities:
