@@ -10,7 +10,14 @@ const api = require('./api');
 
 const app = express();
 
-app.use(morgan('dev'));
+app.use(morgan('dev', {
+  skip: (req, res) => {
+    if (process.env.NODE_ENV !== 'development') {
+      return res.statusCode < 400;
+    }
+    return false;
+  }
+}));
 app.use(helmet());
 app.use(cors());
 app.use(express.json());
