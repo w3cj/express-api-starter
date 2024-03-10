@@ -7,7 +7,8 @@
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
     "lint": "eslint --fix src",
-    "test": "jest"
+    "test": "jest",
+    "vercel-build": "echo hello"
   },
   "keywords": [],
   "author": "CJ R. <cj@null.computer> (https://w3cj.now.sh)",
@@ -21,7 +22,9 @@
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "helmet": "^7.1.0",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "chrome-aws-lambda": "^6",
+    "puppeteer-core": "^6"
   },
   "devDependencies": {
     "eslint": "^8.54.0",
@@ -29,6 +32,7 @@
     "eslint-plugin-import": "^2.29.0",
     "jest": "^29.7.0",
     "nodemon": "^3.0.1",
-    "supertest": "^6.3.3"
+    "supertest": "^6.3.3",
+    "puppeteer": "^16.2.0"
   }
 }
