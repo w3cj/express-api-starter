@@ -1,34 +1,33 @@
 {
   "name": "express-api-starter",
-  "version": "1.2.0",
+  "type": "module",
+  "version": "2.0.0",
   "description": "A basic starter for an express.js API",
-  "main": "index.js",
-  "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js",
-    "lint": "eslint --fix src",
-    "test": "jest"
-  },
-  "keywords": [],
   "author": "CJ R. <cj@null.computer> (https://w3cj.now.sh)",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/w3cj/express-api-starter.git"
   },
-  "license": "MIT",
+  "keywords": [],
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node --env-file=.env src/index.js",
+    "dev": "node --watch --env-file=.env src/index.js",
+    "lint": "eslint --fix src",
+    "test": "vitest run"
+  },
   "dependencies": {
     "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
-    "express": "^4.21.1",
-    "helmet": "^8.0.0",
-    "morgan": "^1.10.0"
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "morgan": "^1.10.0",
+    "zod": "^3.25.67"
   },
   "devDependencies": {
-    "eslint": "^8.57.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.31.0",
-    "jest": "^29.7.0",
-    "nodemon": "^3.1.7",
-    "supertest": "^7.0.0"
+    "@antfu/eslint-config": "^4.16.2",
+    "eslint-plugin-format": "^1.0.1",
+    "supertest": "^7.1.1",
+    "vitest": "^3.2.4"
   }
 }
