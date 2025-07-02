@@ -31,23 +31,23 @@ Development utilities:
 ## Setup
 
 ```
-npm install
+pnpm install
 ```
 
 ## Lint
 
 ```
-npm run lint
+pnpm run lint
 ```
 
 ## Test
 
 ```
-npm test
+pnpm test
 ```
 
 ## Development
 
 ```
-npm run dev
+pnpm run dev
 ```
